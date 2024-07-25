@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Style/style.css">
+
+    <title>
+        Form
+    </title>
+</head>
+
+<body>
+      <!-- navbar -->
+      <div class="navbar">
+        <div class="logo">
+            <a href="./index.html">Hasnat Ahmad</a>
+        </div>
+        <div class="service">
+            <a href="./index.html" class="active">Home</a>
+            <a href="./About.html">About</a>
+            <a href="./Portfolio.html">Portfolio</a>
+        </div>
+    </div>
+    <div class="HeroSectionForm">
+        <div class="formheading">
+
+            <h1>Contact Form</h1>
+        </div>
+        <div >
+
+            <form action="" class="form">
+                <label for="">Name:</label>
+                <input type="text" placeholder="Enter the Name" required name="" id="name">
+                <label for="">Email:</label>
+                <!-- here .+ show that atleast one character is necessary to add before @ and after it gmail is necessary to write after that \. which make it that to add . is neccessary -->
+                <input type="email" placeholder="Enter the Email" required name="" pattern=".+@gmail\.com" id="email">
+                <label for="">PhoneNumber</label>
+                <!-- \ is used as excape-spacifier \+ for + \d for single-number and so on -->
+                <input type="tel" placeholder="+92-234-1234567" required name="number" id="phone" pattern="\+[0-9]{2}[0-9]{4}[0-9]{7}" size="14"  minlength="9" 
+                maxlength="14">
+                <label for="">Description</label>
+                <textarea name="" id="description" required placeholder="Enter the Decription about Service you want" rows="5"
+                    cols="20"></textarea>
+                    <button>Submit</button>
+
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

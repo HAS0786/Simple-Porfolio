@@ -1,0 +1,139 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.div1 {
+background-image: url("https://cdn-icons-png.flaticon.com/128/3291/3291695.png");    width: 80px;
+background-size: contain;
+    background-repeat: no-repeat;
+    height: 50px;
+    border-radius: 100px;
+    margin: 0;
+    padding: 0;
+    visibility: hidden;
+
+    transition:visibility 0.5s ease-out;
+    text-align: center;
+    cursor: pointer;
+    margin: 10px;
+
+
+
+}
+
+.div2 {
+    background-image: url("https://cdn-icons-png.flaticon.com/128/2504/2504923.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 80px;
+    height: 50px;
+    /* border-bottom-right-radius: 0; */
+    border-radius: 100px;
+    margin: 0;
+    padding: 0;
+    visibility: hidden;
+    transition:visibility 0.5s ease-out;
+    text-align: start;
+    cursor: pointer;
+
+    margin: 10px;
+
+
+
+}
+
+.div3 {
+    background-image: url("https://cdn-icons-png.flaticon.com/128/3665/3665167.png");
+    /* background-color: aqua; */
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 80px;
+
+    height: 50px;
+    /* border-top-left-radius: 0; */
+    border-radius: 100px;
+    /* border: 2px solid blue; */
+
+    margin: 0;
+    padding: 0;
+    visibility: hidden;
+    transition:visibility 0.5s ease-out;
+    /* text-align: inherit; */
+    cursor: pointer;
+    margin: 10px;
+
+}
+
+.div4 {
+    background-image: url("https://cdn-icons-png.flaticon.com/128/3955/3955024.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 80px;
+    height: 50px;
+    /* border-bottom-left-radius: 0; */
+    border-radius: 100px;
+    /* border: 2px solid blue; */
+
+    margin: 0;
+    padding: 0;
+    visibility: hidden;
+    transition:visibility 0.5s ease-out;
+    text-align:center;
+    cursor: pointer;
+    margin: 10px;
+
+
+
+}
+
+.main {
+    display: flex;
+    
+    position: absolute;
+    top: -55px;
+    left: -90px;
+    /* z-index: -100; */
+    padding: 0;
+    margin: 0;
+}
+
+.firstdiv {
+    width: 80px;
+    height: 50px;
+
+    margin: 10px;
+    padding: 10px;
+}
+
+.secdiv {
+    width: 80px;
+    height: 50px;
+
+    margin: 10px;
+    padding: 10px;
+}
+
+.circle {
+    width: 60px;
+    height: 60px;
+    /* background-color: blueviolet; */
+    background-image: url("https://cdn-icons-png.flaticon.com/128/4187/4187272.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: 1px solid white;
+    
+    position: relative;
+    left: 150px;
+    top: 15px;
+    text-align: center;
+   border-radius: 100%;
+}
+
+.circle:hover .div1, 
+.circle:hover .div2, 
+.circle:hover .div3, 
+.circle:hover .div4 ,
+.container .circle{
+    visibility: visible;
+
+}

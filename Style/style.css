@@ -1,0 +1,550 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+.navbar {
+    background-color: #032233;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+
+}
+
+.logo {
+    margin: 3px;
+    padding: 5px;
+    font-size: larger;
+    font-weight: bolder;
+    cursor: pointer;
+
+}
+
+.service {
+    display: flex;
+    margin: 3px;
+    padding: 5px;
+    gap: 10px;
+
+}
+
+.service a {
+    cursor: pointer;
+    text-decoration: none;
+    color: aliceblue;
+
+}
+
+.logo a {
+    cursor: pointer;
+    text-decoration: none;
+    color: aliceblue;
+
+}
+
+.service a:hover,
+.service a.active {
+    color: chocolate;
+}
+
+.HeroSection {
+
+    min-height: 120vh;
+
+    align-items: center;
+    background-color: #075985;
+
+}
+
+.HeroSectionPortfolio {
+    background-color: #075985;
+    /* min-height: 150vh; */
+
+}
+
+.HeroSectionPortfolio .heading {
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    border-style: dotted;
+}
+
+.HeroSectionPortfolio h1 {
+    padding: 15px;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bolder;
+    color: aliceblue;
+
+}
+
+.grid-item {
+    border: 2px solid grey;
+    height: 500px;
+    margin-top: 20px;
+}
+
+ .HeroSectionPortfolio .text{
+    color: white;
+    text-align: center;
+    max-width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+} 
+.HeroSectionPortfolio h2 {
+ 
+    font-size: 30px;
+    max-width: 700px;
+}
+
+.HeroSectionPortfolio p {
+    /* text-align: center; */
+    margin-top: 3px;
+    max-width: 600px;
+}
+
+.HeroSectionPortfolio a {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    
+ 
+}
+
+@media screen and (min-width: 4000px) {
+    .grid-container {
+        margin: 20px;
+        border: 2px solid gainsboro;
+        display: grid;
+        grid-template-columns: 1200px 1200px 1200px;
+        gap: 30px;
+    }
+
+    .grid-item {
+        /* margin-top: 0; */
+        height: 1000px;
+    }
+}
+@media screen and (min-width: 1024px) {
+    .grid-container {
+        margin: 20px;
+        border: 2px solid gainsboro;
+        display: grid;
+        grid-template-columns: 1200px 1200px;
+        gap: 30px;
+    }
+
+    .grid-item {
+        /* margin-top: 0; */
+        height: 1000px;
+    }
+}
+@media screen and (min-width: 1024px) {
+    .grid-container {
+        margin: 20px;
+        border: 2px solid gainsboro;
+        display: grid;
+        grid-template-columns: 630px 630px;
+        gap: 30px;
+    }
+
+    .grid-item {
+        /* margin-top: 0; */
+        height: 1000px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .grid-container {
+        margin-top: 20px;
+        border: 2px solid gainsboro;
+        display: grid;
+        grid-template-columns: 450px 450px;
+        gap: 30px;
+       
+    }
+
+    .grid-item {
+        /* margin-top: 0; */
+        height: 850px;
+    }
+    .grid-item {
+        /* margin-top: 0; */
+        height: 860px;
+    }
+    .HeroSectionPortfolio .text {
+     
+        max-width: 800px;
+    }
+    .HeroSectionPortfolio h2 {
+        text-decoration: underline;
+        max-width: 800px;
+    }
+    .HeroSectionPortfolio p {
+        text-align: center;
+        margin-top: 10px;
+        max-width: 400px;
+    }
+    
+}
+
+@media screen and (max-width: 768px) {
+    .grid-container {
+        margin-top: 20px;
+        border: 2px solid gainsboro;
+        display: grid;
+        grid-template-columns: 700px;
+        gap: 30px;
+    }
+
+    .grid-item {
+        /* margin-top: 0; */
+        height: 860px;
+    }
+    .HeroSectionPortfolio .text {
+     
+        max-width: 800px;
+    }
+    .HeroSectionPortfolio h2 {
+        text-decoration: underline;
+        max-width: 800px;
+    }
+    .HeroSectionPortfolio p {
+        text-align: center;
+        margin-top: 10px;
+        max-width: 800px;
+    }
+    .HeroSectionPortfolio button {
+        display: flex;
+        justify-content: center;
+        
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .grid-container {
+        margin-top: 20px;
+        border: 2px solid gainsboro;
+        display: grid;
+        grid-template-columns: 310px;
+        gap: 30px;
+    }
+
+    .grid-item {
+        /* margin-top: 0; */
+        height: 720px;
+    }
+}
+
+
+.videoshow {
+
+
+    padding: 0;
+    margin: 0;
+    background-size: contain;
+}
+
+.belowHero {
+    background-color: #075985;
+    color: antiquewhite;
+    text-align: center;
+
+
+}
+
+.belowHeroText {
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+@media (max-width:768px) {
+    .HeroSection {
+
+        min-height: 120vh;
+        display: flex;
+        flex-direction: column;
+
+        /* margin-left: 20px; */
+        align-items: center;
+        background-color: #075985;
+
+    }
+}
+
+@media (min-width:769px) {
+    .HeroSection {
+
+        min-height: 100vh;
+        display: flex;
+        flex-direction: row;
+
+
+        align-items: center;
+        background-color: #075985;
+
+    }
+}
+
+
+.text {
+
+
+    max-width: 45vw;
+    margin: 15px;
+
+}
+
+@media (max-width:768px) {
+
+    .text {
+
+
+        /* min-width: 99vw; */
+        text-align: center;
+        margin: 15px;
+
+    }
+}
+
+@media (min-width:769px) {
+
+    .text {
+
+
+        min-width: 49vw;
+        margin: 15px;
+
+    }
+}
+
+.text h1 {
+    font-size: 40px;
+    font-weight: bolder;
+    /* margin: 5px; */
+
+}
+
+.text h3 {
+    color: rgba(217, 217, 223, 0.863);
+    font-size: x-large;
+    font-weight: bold;
+    margin: 5px;
+}
+
+.text p {
+    color: rgb(92, 172, 247);
+
+    margin-bottom: 5px;
+}
+
+.HeroSection .btn .btn1 {
+    background-color: blue;
+    color: aliceblue;
+    padding: 8px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+.belowHero .btn .btn1 {
+    background-color: blue;
+
+    color: aliceblue;
+    padding: 8px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+.HeroSection .btn .btn2 {
+    color: black;
+    padding: 8px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+.HeroSectionPortfolio .btn .btn2 {
+    color: black;
+    padding: 8px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+.belowHero .btn .btn2 {
+    color: black;
+    padding: 8px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    margin-right: 5px;
+}
+
+.belowHero p {
+    text-align: center;
+}
+
+.HeroSection .btn .btn1:hover {
+    cursor: pointer;
+    background-color: rgb(249, 249, 252);
+    color: black;
+    border-color: black;
+    transition: 0.5s ease-in;
+}
+
+.HeroSectionPortfolio .btn .btn1:hover {
+    cursor: pointer;
+    background-color: rgb(249, 249, 252);
+    color: black;
+    border-color: black;
+    transition: 0.5s ease-in;
+}
+
+.belowHero .btn .btn1:hover {
+    cursor: pointer;
+    background-color: rgb(249, 249, 252);
+    color: black;
+    border-color: black;
+    transition: 0.5s ease-in;
+}
+
+.HeroSection .btn .btn2:hover {
+    border: 2px;
+    border-color: rgb(247, 36, 36);
+    cursor: pointer;
+    background-color: blue;
+    color: aliceblue;
+    transition: 0.5s ease-in-out;
+}
+
+.HeroSectionPortfolio .btn .btn2:hover {
+    border: 2px;
+    border-color: rgb(247, 36, 36);
+    cursor: pointer;
+    background-color: blue;
+    color: aliceblue;
+    transition: 0.5s ease-in-out;
+}
+
+.belowHero .btn .btn2:hover {
+    border: 2px;
+    border-color: rgb(247, 36, 36);
+    cursor: pointer;
+    background-color: blue;
+    color: aliceblue;
+    transition: 0.5s ease-in-out;
+}
+
+.HeroSection .images {
+
+    width: 50vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: right;
+    color: black;
+    background-image: url("https://img.freepik.com/premium-photo/portrait-man-with-blue-lights-visual-effects-ultra-hd-realistic-generative-ai_947227-933.jpg?w=360");
+    border-radius: 10px;
+
+}
+
+
+/* for small screen */
+
+@media (max-width:768px) {
+    .HeroSection .images {
+
+        width: 100vw;
+        height: 100vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: right;
+        color: black;
+        /* background-image: url("https://img.freepik.com/premium-photo/portrait-man-with-blue-lights-visual-effects-ultra-hd-realistic-generative-ai_947227-933.jpg?w=360"); */
+        background-image: url("../Images/Hasnat.jpg");
+        border-radius: 10px;
+
+    }
+}
+
+@media (min-width:769px) {
+    .HeroSection .images {
+
+        width: 50vw;
+        height: 90vh;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        color: black;
+        background-image: url("../Images/Hasnat.jpg");
+        /* background-image: url("https://img.freepik.com/premium-photo/portrait-man-with-blue-lights-visual-effects-ultra-hd-realistic-generative-ai_947227-933.jpg?w=360"); */
+        border-radius: 10px;
+
+    }
+}
+
+.HeroSection .image {
+    width: 100%;
+    /* min-height: 100vh; */
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+    min-height: 100vh;
+
+    background-image: url("../Images/Purple\ and\ White\ Modern\ Welcome\ to\ My\ Channel\ YouTube\ Intro\ Video.png");
+}
+
+.footer {
+    padding: 10px;
+    border-top: 1px solid black;
+    height: 35vh;
+    background-color: #075985;
+}
+
+.footer h1 {
+    margin-bottom: 15px;
+    color: antiquewhite;
+}
+
+/* Form */
+.HeroSectionForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+
+    align-items: center;
+    background-color: #075985;
+}
+.HeroSectionForm .formheading{
+    color: wheat;
+    text-decoration: underline;
+}
+.HeroSectionForm .form{
+    border: 2px solid rgba(255, 255, 255, 0.363);
+display: flex;
+flex-direction: column;
+padding: 50px;
+border-radius: 10px;
+margin-top: 20px;
+
+    align-content: center;
+    color: aliceblue;
+}
+.HeroSectionForm input{
+    margin: 6px;
+}
+.HeroSectionForm button{
+    margin-top: 10px;
+    border-radius: 30px;
+    padding: 5px;
+    background-color:burlywood;
+}
+#name,#email,#phone,#description{
+    background-color: transparent;
+
+    color: white;
+    padding: 5px;
+}
